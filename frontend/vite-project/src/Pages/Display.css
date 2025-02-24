@@ -1,0 +1,62 @@
+/* Style the table container */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Style for the table headers */
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Background color for table headers */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+/* Add some padding to the table cells */
+th,
+td {
+  padding: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+  table,
+  th,
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 15px;
+  }
+
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+
+  td {
+    background-color: #f8f9fa;
+  }
+}
