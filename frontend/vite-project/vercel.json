@@ -7,10 +7,10 @@
       "config": { "distDir": "build" }
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ],
   "redirects": [
@@ -29,6 +29,10 @@
           "value": "public, max-age=0, must-revalidate"
         }
       ]
+    }
+  ]
+}
+
     }
   ]
 }
